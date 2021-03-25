@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="OpenDownloadManagerv1.1CSharp.exe" version="1.0.0.0" publicKeyToken="394c8b6aafc6bf45" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="OpenDownloadManagerv1.1CSharp" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="OpenDownloadManagerv1.1CSharp.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="OpenDownloadManagerv1.1CSharp.exe" size="16352">
+      <assemblyIdentity name="OpenDownloadManagerv1.1CSharp" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>MLKiwyfx0QfbF03MrG8TB0IRrDe8jpLJbPKmazR9ZHo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="OpenDownloadManagerv1.1CSharp.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=ULTIMATE-PREDAT\adijo" issuerKeyHash="2b189260cd1a71e931bd90721e2e6527a701dabc" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>g5VBjbtQ/2OzNn7LC17WtxhYgpU2QysQZZ4fdQT1pGM=</DigestValue></Reference></SignedInfo><SignatureValue>ce65qzDre/4cHFthpKELVZ4/2dy0dsHXBTL5BVXd7CesaY1swUYCuUvcyu+UFM/a1fuiQmrZMf3mUt7DKIl6q9UQgVHbnXz/FPvCmmSimxakpzdG/SHksPGpf68yrO0odHICjFZLB/o4lj+HXWuKYb5VVG2AGa3IU4avUOE79vc=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>oN6IklScYDCFoscbeNZA9C/COSyWMnJGoGsBNVyO89xPnIJTWHfrfLV68LvlS9ipvzt78GeXnMbQDnK1QLBReTCeYallBC8A25pM+9gx+LyV0vb3VVMSO8jiUs7yIohdN1XgV7Uo4BT3pcjIvq+3VSKaWcnxoWco49WPCbvjLc0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="63a4f504751f9e65102b433695825818b7d65e0bcb7e36b363ff50bb8d419583" Description="" Url=""><as:assemblyIdentity name="OpenDownloadManagerv1.1CSharp.exe" version="1.0.0.0" publicKeyToken="394c8b6aafc6bf45" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=ULTIMATE-PREDAT\adijo</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>67F4dbDoAlqifSYfCW9mLqxGKXayuMQd+8T+pO/eg7Y=</DigestValue></Reference></SignedInfo><SignatureValue>eYvAU3h65JTlDiYw/ZrSHd++0MCiCqi8GeWQdvXh739Kh2QPsjlv2/Ar/KaBJEMfJtdEQ1Wom5MDHKbtYF+Uxq6mX9khKTjt0L+OudZ/NjOBhuandyxSUmUnrplIOuZtPB2XoN8rolSCg4YNFn4HaAmEqCSRAHLm3v7bZzw+MBE=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>oN6IklScYDCFoscbeNZA9C/COSyWMnJGoGsBNVyO89xPnIJTWHfrfLV68LvlS9ipvzt78GeXnMbQDnK1QLBReTCeYallBC8A25pM+9gx+LyV0vb3VVMSO8jiUs7yIohdN1XgV7Uo4BT3pcjIvq+3VSKaWcnxoWco49WPCbvjLc0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQM+tU/PgO9ZJCoDRQebmvGTANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioAVQBMAFQASQBNAEEAVABFAC0AUABSAEUARABBAFQAXABhAGQAaQBqAG8wHhcNMjEwMzI0MTU0NTQ0WhcNMjIwMzI0MjE0NTQ0WjA1MTMwMQYDVQQDHioAVQBMAFQASQBNAEEAVABFAC0AUABSAEUARABBAFQAXABhAGQAaQBqAG8wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAKDeiJJUnGAwhaLHG3jWQPQvwjksljJyRqBrATVcjvPcT5yCU1h363y1evC75UvYqb87e/Bnl5zG0A5ytUCwUXkwnmGpZQQvANuaTPvYMfi8ldL291VTEjvI4lLO8iKIXTdV4Fe1KOAU96XIyL6vt1UimlnJ8aFnKOPVjwm74y3NAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAX2BIyx0IdyZn0Tg3YLGrnwVzOFPMnthjT/nxgsZsfr/zYexvj5t25QjSsvNBVRnFH2izdNnfikLmWMkfl7GifF+BDXd9R/1KA5rgP+kmNOponzAZEgdY5fRFj0IWA+FtbH5FRGUrGOokMCJ+mVdMXrboQOieLAE3Tzs3uiNMX6s=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
