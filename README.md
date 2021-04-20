@@ -19,9 +19,5 @@ probably require some sort of additional software just to run it. Plus, I wanted
 
 And, long story short, I found C#. I coded the project for it and tested it, and it worked.
 
-## Where do I get the download manager?
-
-You can get the source code and installer [here](https://github.com/TheRealMysticSavages/OpenDownloadManager/releases/tag/v1.1). You're welcome.
-
  
 
